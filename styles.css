@@ -1,10 +1,26 @@
 #titulo {
-  text-align: left;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  font-size: 30px;
-  color: rgb(252, 154, 118);
-  text-shadow: 0px 0px 9px grey;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  display: inline-block;
+  border: 4px double rgba(255, 255, 255, 0.25);
+  color: #744b0d;
+  border-width: 4px 0;
+  padding: 1.5em 0em;
+  position: absolute;
+  top: 18%;
+  left: 50%;
+  width: 40em;
+  margin: 0 0 0 -20em;
+
+  #titulo1 {
+    font: 700 4em/1 "Oswald", sans-serif;
+    color: #ff9800;
+    letter-spacing: 0;
+    padding: 0.25em 0 0.325em;
+    display: block;
+    margin: 0 auto;
+    text-shadow: 0 0 80px rgba(255, 255, 255, 0.5);
+  }
 }
 
 #respuestaInput {
