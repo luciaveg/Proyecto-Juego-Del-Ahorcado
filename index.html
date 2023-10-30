@@ -7,7 +7,13 @@
     <title>Document</title>
   </head>
   <body>
-    <h1 id="titulo">Adivina la palabra! Juego del ahorcado.</h1>
+    <div id="contenedor">
+      <p id="titulo">
+        Adivina la palabra!
+        <span id="titulo1"> Juego del ahorcado. </span>
+      </p>
+    </div>
+
     <p id="introduccion">
       Bienvenidas y bienvenidos al juego del ahorcado. El juego del ahorcado es
       un popular juego de palabras y adivinanza. El objetivo del juego es tratar
@@ -17,12 +23,11 @@
 
     <h4 id="numerofallos">Pero cuidado! Solo puedes tener 6 fallos!</h4>
     <p id="pregunta">¿Estás preparado/a?</p>
-    <button id="siBoton">Sí</button>
-    <button id="noBoton">No</button>
     <div id="respuesta">
       <input type="text" id="respuestaInput" />
-      <button id="enviarButton">Enviar letra aquí!</button>
+      <button id="enviarBoton">Enviar letra aquí!</button>
     </div>
+
     <script src="index.js"></script>
   </body>
 </html>
