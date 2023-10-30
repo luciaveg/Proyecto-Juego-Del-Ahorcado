@@ -24,7 +24,12 @@
       <h4 id="numerofallos">Pero cuidado! Solo puedes tener 6 fallos!</h4>
       <p id="pregunta">¿Estás preparado/a?</p>
       <div id="respuesta">
-        <input type="text" id="respuestaInput" />
+        <input
+          type="text"
+          maxlength="1"
+          oninput="this.value = this.value.replace(/[^a-zA-Z]/g, '');"
+          id="respuestaInput"
+        />
         <button id="enviarBoton">Enviar letra aquí!</button>
       </div>
     </div>
