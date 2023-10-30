@@ -24,3 +24,10 @@ let adivinaPalabra = [];
 
 let divide = palabraAleatoria.split("");
 console.log(divide);
+
+const letraUsuario = document.getElementById("respuestaInput");
+
+for (let i = 0; i <= 7; i++) {
+  if (letraUsuario === divide[i]) {
+  }
+}
