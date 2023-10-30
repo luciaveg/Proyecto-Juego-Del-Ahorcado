@@ -1,6 +1,8 @@
 body {
-  background-color: #744b0d;
+  background-image: url(png-clipart-empty-white-form-box-paper-line-angle-point-pattern-school-squared-notebook-sheet-texture-angle.png);
+  background-size: cover;
 }
+
 #contenedor {
   height: 27vh;
   display: flex;
@@ -25,7 +27,7 @@ body {
   width: 40em;
   margin: 0 0 0 -20em;
 
-  #titulo1 {
+  #titulosecundario {
     text-align: center;
     font: 700 4em/1 "Oswald", sans-serif;
     color: #ff9800;
@@ -36,6 +38,7 @@ body {
     text-shadow: 0 0 80px rgba(255, 255, 255, 0.5);
   }
 }
+
 #introduccion {
   font-size: larger;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
@@ -74,4 +77,15 @@ body {
   border: 2px solid #ff9800;
   background: #e68a00;
   color: white;
+}
+
+#palabraoculta {
+  text-align: center;
+  font: 700 4em/1 "Oswald", sans-serif;
+  color: #ff9800;
+  letter-spacing: 0;
+  padding: 0.25em 0 0.325em;
+  display: block;
+  margin: 0 auto;
+  text-shadow: 0 0 80px rgba(255, 255, 255, 0.5);
 }
