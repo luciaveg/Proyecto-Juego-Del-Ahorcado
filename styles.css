@@ -1,0 +1,91 @@
+body {
+    background-image: url(png-clipart-empty-white-form-box-paper-line-angle-point-pattern-school-squared-notebook-sheet-texture-angle.png);
+    background-size: cover;
+  }
+  
+  #contenedor {
+    height: 27vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  #titulo {
+    text-align: center;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.5em;
+    display: inline-block;
+    border: 4px double rgba(255, 255, 255, 0.25);
+    color: #744b0d;
+    border-width: 4px 0;
+    padding: 1.5em 0em;
+    position: absolute;
+    left: 50%;
+    width: 40em;
+    margin: 0 0 0 -20em;
+  
+    #titulosecundario {
+      text-align: center;
+      font: 700 4em/1 "Oswald", sans-serif;
+      color: #ff9800;
+      letter-spacing: 0;
+      padding: 0.25em 0 0.325em;
+      display: block;
+      margin: 0 auto;
+      text-shadow: 0 0 80px rgba(255, 255, 255, 0.5);
+    }
+  }
+  
+  #introduccion {
+    font-size: larger;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    text-align: center;
+  }
+  
+  #numerofallos {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    text-align: left;
+  }
+  #pregunta {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    text-align: left;
+  }
+  #respuestaInput {
+    border: none;
+    color: black;
+    padding: 14px 28px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: white;
+    border: 2px solid #ff9800;
+    background: #e68a00;
+    color: white;
+  }
+  #enviarBoton {
+    border: none;
+    color: black;
+    padding: 14px 28px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: white;
+    border: 2px solid #ff9800;
+    background: #e68a00;
+    color: white;
+  }
+
+  #palabraoculta {
+    text-align: center;
+    font: 700 4em/1 "Oswald", sans-serif;
+    color: #ff9800;
+    letter-spacing: 0;
+    padding: 0.25em 0 0.325em;
+    display: block;
+    margin: 0 auto;
+    text-shadow: 0 0 80px rgba(255, 255, 255, 0.5);
+  }
