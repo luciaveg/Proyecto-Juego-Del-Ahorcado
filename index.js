@@ -55,32 +55,4 @@ function getRandomInt(min, max) {
       document.querySelector('#palabraoculta').innerHTML = palabraConGuiones;
   })
 
-  /*
-palabraConGuiones = palabra.replace(/./g, "_ ");
-let onst palabra = palabras[Math.floor(Math.random() * palabras.length)];
-let pcont = 0;
-document.querySelector('#output').innerHTML = palabraConGuiones;
-document.querySelector('#calcular').addEventListener('click', () =>
-{
-    let letra = document.querySelector('#letra').value;
-    document.querySelector('#letra').value = "";
-    let encontrado = false;
-    for (const i in palabra) {
-        if (letra == palabra[i]) {
-            palabraConGuiones = palabraConGuiones.replaceAt(i * 2, letra);
-            encontrado = true;
-        }
-    }
-
-    if (!encontrado) { 
-        cont++;        
-    }
-
-    if (cont >= 7) {
-        document.querySelector('#calcular').disabled = true;
-    }
-
-    document.querySelector('#output').innerHTML = palabraConGuiones;
-})
-
-  */
+  
