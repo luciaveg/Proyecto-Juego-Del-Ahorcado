@@ -48,7 +48,7 @@ function getRandomInt(min, max) {
           cont++;        
       }
   
-    if (cont >= 7) {
+    if (cont >= 6) {
           document.querySelector('#enviarBoton').disabled = true;
       }
   
