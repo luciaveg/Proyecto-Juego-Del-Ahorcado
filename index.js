@@ -53,7 +53,14 @@ document.querySelector("#enviarBoton").addEventListener("click", () => {
 
   if (cont >= 6) {
     document.querySelector("#enviarBoton").disabled = true;
+    document.querySelector("#mensajePerder").textContent =
+      "¡Qué pena! Has perdido. La palabra era: " + palabraAleatoria;
   }
 
   document.querySelector("#palabraoculta").innerHTML = palabraConGuiones;
+  if (palabraConGuiones.indexOf("_") === -1) {
+    document.querySelector("#enviarBoton").disabled = true;
+    document.querySelector("#mensajeGanar").textContent =
+      "¡Felicidades! Has ganado.";
+  }
 });
