@@ -89,3 +89,12 @@ body {
   margin: 0 auto;
   text-shadow: 0 0 80px rgba(255, 255, 255, 0.5);
 }
+
+#imagenahorcado {
+  height: 229px;
+  width: 232px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+
+}

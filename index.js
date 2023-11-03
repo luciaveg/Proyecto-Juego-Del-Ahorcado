@@ -49,9 +49,40 @@ document.querySelector("#enviarBoton").addEventListener("click", () => {
 
   if (!encontrado) {
     cont++;
-  }
 
+if (cont == 1) {
+  var ahorcadoimagen = document.getElementById("imagenahorcado");
+  ahorcadoimagen.src = "error1.png";
+} else {
+    if (cont==2) {
+      var ahorcadoimagen = document.getElementById("imagenahorcado");
+      ahorcadoimagen.src = "error2.png";
+    } else {
+        if (cont==3) {
+          var ahorcadoimagen = document.getElementById("imagenahorcado");
+          ahorcadoimagen.src = "error3.png";
+        } else {
+if (cont==4){
+  var ahorcadoimagen = document.getElementById("imagenahorcado");
+  ahorcadoimagen.src = "error4.png";
+} else {
+if (cont==5){
+  var ahorcadoimagen = document.getElementById("imagenahorcado");
+  ahorcadoimagen.src = "error5.png";
+} else{
+  if (cont==6){
+    var ahorcadoimagen = document.getElementById("imagenahorcado");
+    ahorcadoimagen.src = "error6.png";
+  }
+}
+}
+        }
+    }
+}
+  }
+   
   if (cont >= 6) {
+
     document.querySelector("#enviarBoton").disabled = true;
   }
 
