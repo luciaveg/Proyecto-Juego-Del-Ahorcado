@@ -73,6 +73,9 @@ document.querySelector("#enviarBoton").addEventListener("click", () => {
               if (cont == 6) {
                 var ahorcadoimagen = document.getElementById("imagenahorcado");
                 ahorcadoimagen.src = "error6.png";
+                setTimeout(function () {
+                  location.reload();
+                }, 2000);
               }
             }
           }
