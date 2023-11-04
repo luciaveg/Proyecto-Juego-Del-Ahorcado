@@ -103,3 +103,11 @@ body {
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   text-align: center;
 }
+
+#imagenahorcado {
+  height: 229px;
+  width: 232px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
