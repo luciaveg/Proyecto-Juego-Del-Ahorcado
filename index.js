@@ -95,5 +95,8 @@ document.querySelector("#enviarBoton").addEventListener("click", () => {
     document.querySelector("#enviarBoton").disabled = true;
     document.querySelector("#mensajeGanar").textContent =
       "¡Felicidades! Has ganado.";
+    setTimeout(function () {
+      location.reload();
+    }, 2000);
   }
 });
